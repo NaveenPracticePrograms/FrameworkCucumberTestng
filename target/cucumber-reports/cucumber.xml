@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="71.3">
+<testcase classname="Validate the Testcases 1 &amp; 2 given in the Email" name="_2" time="17.419">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Validuser"................passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 1 &amp; 2 given in the Email" name="_3" time="17.489">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Invalidusername"..........passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 1 &amp; 2 given in the Email" name="_4" time="15.334">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "Invalidpassword"..........passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 1 &amp; 2 given in the Email" name="_5" time="15.246">
+<system-out><![CDATA[Given User launches the application and clicks on "Form Authentication".....passed
+When User provides the username and password for "InvaliduserAndPassword"...passed
+Then for valid credendtial login successfully else fail with an expected error.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 1 &amp; 2 given in the Email" name="_6" time="23.84">
+<system-out><![CDATA[Given User launches the application and clicks on "Dynamic Loading".........passed
+When User selects the element and clicks on start...........................passed
+Then Validate the progress bar and once completed validate the final message.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 3 &amp; 4 given in the Email" name="_2" time="14.61">
+<system-out><![CDATA[Given User launches the application and clicks on "Multiple Windows"........passed
+When User clicks on the link on multiple page window........................passed
+Then User should log the URL of the newly opened tab........................passed
+And User close the newly opened tab.........................................passed
+And User logs and validates the title of the current page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 3 &amp; 4 given in the Email" name="_3" time="14.236">
+<system-out><![CDATA[Given User launches the application and clicks on "Drag and Drop"...........passed
+When User Should drag box A and drops it on box b...........................passed
+Then Validate whether the box drop is success and take a screenshot.........passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 5 given in the Email" name="_2" time="14.246">
+<system-out><![CDATA[Given User launches the application and clicks on "Frames"..................passed
+When User clicks on iFrame..................................................passed
+Then User should be able to clear the predefined text and enter some text...passed
+And User should be able to make the newly entered text in bold and take a screenshot.passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the Testcases 5 given in the Email" name="_3" time="8.928">
+<system-out><![CDATA[Given User launches the application and clicks on "JavaScript Alerts".......passed
+When User Should clicks on js confirm link..................................passed
+Then User should cancel the alert opened and validate the alert cancelled message.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.coding.Runner.TestRunner" time="73.663" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\naveen\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\Practicesession\Logitech_Testng_Cucumber\target\test-classes;F:\Practicesession\Logitech_Testng_Cucumber\target\classes;C:\Users\naveen\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\naveen\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\naveen\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\naveen\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\naveen\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\naveen\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\naveen\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\naveen\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\naveen\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\naveen\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\naveen\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\naveen\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\naveen\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\naveen\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\naveen\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\naveen\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\naveen\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\naveen\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\naveen\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\naveen\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\naveen\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.0.12\extentreports-cucumber4-adapter-1.0.12.jar;C:\Users\naveen\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\naveen\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\naveen\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\naveen\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\naveen\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\naveen\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\naveen\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\naveen\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\naveen\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\naveen\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\naveen\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\naveen\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\naveen\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi\3.11\poi-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\naveen\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\naveen\AppData\Local\Temp\surefire7544104617190453112\surefirebooter4842011097730323677.jar C:\Users\naveen\AppData\Local\Temp\surefire7544104617190453112 2021-12-31T15-12-22_041-jvmRun1 surefire7415905397419455543tmp surefire_06375112813255854898tmp"/>
+    <property name="surefire.test.class.path" value="F:\Practicesession\Logitech_Testng_Cucumber\target\test-classes;F:\Practicesession\Logitech_Testng_Cucumber\target\classes;C:\Users\naveen\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\naveen\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\naveen\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\naveen\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\naveen\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\naveen\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\naveen\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\naveen\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\naveen\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\naveen\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\naveen\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\naveen\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\naveen\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-testng\6.9.1\cucumber-testng-6.9.1.jar;C:\Users\naveen\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\naveen\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\naveen\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\naveen\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\naveen\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\naveen\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\naveen\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\naveen\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\naveen\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\naveen\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\naveen\.m2\repository\com\aventstack\extentreports-cucumber4-adapter\1.0.12\extentreports-cucumber4-adapter-1.0.12.jar;C:\Users\naveen\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\naveen\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\naveen\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\naveen\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\naveen\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\naveen\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\naveen\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\naveen\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\naveen\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\naveen\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\naveen\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\naveen\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\naveen\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\naveen\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi\3.11\poi-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Users\naveen\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\naveen\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\naveen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="basedir" value="F:\Practicesession\Logitech_Testng_Cucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\naveen\AppData\Local\Temp\surefire7544104617190453112\surefirebooter4842011097730323677.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="user.name" value="naveen"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\naveen\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\naveen\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="user.dir" value="F:\Practicesession\Logitech_Testng_Cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_40\bin;C:\Windows\System32;C:\Python27;C:\Python27\Scripts;C:\Python27\Tools\Scripts;C:\Python27;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\Udemy\apache-maven-3.6.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_40\jre\bin;C:\Program Files\Git\cmd;C:\Users\naveen\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\naveen\AppData\Local\Programs\Python\Python37-32\;F:\Udemy\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_111\bin;F:\Softwares\Android\eclipse-jee-neon-1a-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 1 &amp; 2 given in the Email]&quot;](1)" classname="com.coding.Runner.TestRunner" time="17.871">
+    <system-out><![CDATA[
+@Testcase1
+Scenario Outline:                                                                # src/test/resources/com/coding/features/Feature1.feature:12
+
+@Testcase1
+Scenario Outline:                                                                # src/test/resources/com/coding/features/Feature1.feature:11
+12-31-2021 15:12:30 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:12:30 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:12:36 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:12:36 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:12:37 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:12:37 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:12:37 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Header message on clicking Form_authentication Link Login Page
+
+    Header message on clicking Form_authentication Link Login Page
+
+actual sttatus is true
+12-31-2021 15:12:37 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Form Authentication link is clicked from HomePage
+
+    Form Authentication link is clicked from HomePage
+
+  Given User launches the application and clicks on "Form Authentication"        # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:12:37 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Entering user name and password for Validuser
+
+    Entering user name and password for Validuser
+
+12-31-2021 15:12:38 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Header message on clicking Form_authentication Link Login Page
+
+    Header message on clicking Form_authentication Link Login Page
+
+actual sttatus is true
+12-31-2021 15:12:38 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Form Authentication link is clicked from HomePage
+
+    Form Authentication link is clicked from HomePage
+
+  Given User launches the application and clicks on "Form Authentication"        # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:12:38 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Entering user name and password for Invalidusername
+
+    Entering user name and password for Invalidusername
+
+12-31-2021 15:12:38 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - On login using Uname= name2 and Password= SuperSecretPassword! ,it should be a Failure with message Your username is invalid!
+
+    On login using Uname= name2 and Password= SuperSecretPassword! ,it should be a Failure with message Your username is invalid!
+
+12-31-2021 15:12:38 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - On login using Uname= tomsmith and Password= SuperSecretPassword! ,it should be a Success with message You logged into a secure area!
+
+    On login using Uname= tomsmith and Password= SuperSecretPassword! ,it should be a Success with message You logged into a secure area!
+
+  When User provides the username and password for "Validuser"                   # com.coding.StepDefinitions.StepDefinition.user_provides_the_username_and_password_for(java.lang.String)
+  When User provides the username and password for "Invalidusername"             # com.coding.StepDefinitions.StepDefinition.user_provides_the_username_and_password_for(java.lang.String)
+message Your username is invalid! complted
+12-31-2021 15:12:40 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+
+    Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+
+  Then for valid credendtial login successfully else fail with an expected error # com.coding.StepDefinitions.StepDefinition.for_valid_credendtial_login_successfully_else_fail_with_an_expected_error()
+message You logged into a secure area! complted
+12-31-2021 15:12:41 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Expected Message after Login= You logged into a secure area!Actual Status after Login= You logged into a secure area!
+
+    Expected Message after Login= You logged into a secure area!Actual Status after Login= You logged into a secure area!
+
+  Then for valid credendtial login successfully else fail with an expected error # com.coding.StepDefinitions.StepDefinition.for_valid_credendtial_login_successfully_else_fail_with_an_expected_error()
+
+    Embedding  [image/png 33758 bytes]
+
+
+    Embedding  [image/png 33952 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 16028
+Only local connections are allowed.
+Please see https://chromedriver.chromium.Sotragr/tsiencgu rCihtryo-mceoDriver 96.0.n4s66i4d.e4r5a t(i76oen4sc 1bfbo2ra bs4u6g7g1eb8sbteiobnsa 3o44n4 ek6e1ecp0fi1n7g5 8C4hbro2mfecDr-irveefrs /sbarfaen.ch
+-heads/4664@{#947}) on port 10768
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:12:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 31, 2021 3:12:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 1 &amp; 2 given in the Email]&quot;](2)" classname="com.coding.Runner.TestRunner" time="0">
+    <system-out><![CDATA[
+@Testcase1
+Scenario Outline:                                                                # src/test/resources/com/coding/features/Feature1.feature:13
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 1 &amp; 2 given in the Email]&quot;](3)" classname="com.coding.Runner.TestRunner" time="15.225">
+    <system-out><![CDATA[
+@Testcase1
+Scenario Outline:                                                                # src/test/resources/com/coding/features/Feature1.feature:14
+12-31-2021 15:12:46 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:12:46 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:12:53 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:12:53 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:12:54 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:12:54 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Header message on clicking Form_authentication Link Login Page
+
+    Header message on clicking Form_authentication Link Login Page
+
+actual sttatus is true
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Form Authentication link is clicked from HomePage
+
+    Form Authentication link is clicked from HomePage
+
+  Given User launches the application and clicks on "Form Authentication"        # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Entering user name and password for Invalidpassword
+
+    Entering user name and password for Invalidpassword
+
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - On login using Uname= tomsmith and Password= Pass123# ,it should be a Failure with message Your password is invalid!
+
+    On login using Uname= tomsmith and Password= Pass123# ,it should be a Failure with message Your password is invalid!
+
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Header message on clicking Form_authentication Link Login Page
+
+    Header message on clicking Form_authentication Link Login Page
+
+actual sttatus is true
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Form Authentication link is clicked from HomePage
+
+    Form Authentication link is clicked from HomePage
+
+  Given User launches the application and clicks on "Form Authentication"        # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Entering user name and password for InvaliduserAndPassword
+
+    Entering user name and password for InvaliduserAndPassword
+
+12-31-2021 15:12:55 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - On login using Uname= uname! and Password= pass! ,it should be a Failure with message Your username is invalid!
+
+    On login using Uname= uname! and Password= pass! ,it should be a Failure with message Your username is invalid!
+
+  When User provides the username and password for "Invalidpassword"             # com.coding.StepDefinitions.StepDefinition.user_provides_the_username_and_password_for(java.lang.String)
+  When User provides the username and password for "InvaliduserAndPassword"      # com.coding.StepDefinitions.StepDefinition.user_provides_the_username_and_password_for(java.lang.String)
+message Your password is invalid! complted
+12-31-2021 15:12:56 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Expected Message after Login= Your password is invalid!Actual Status after Login= Your password is invalid!
+
+    Expected Message after Login= Your password is invalid!Actual Status after Login= Your password is invalid!
+
+  Then for valid credendtial login successfully else fail with an expected error # com.coding.StepDefinitions.StepDefinition.for_valid_credendtial_login_successfully_else_fail_with_an_expected_error()
+message Your username is invalid! complted
+12-31-2021 15:12:56 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+
+    Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+
+  Then for valid credendtial login successfully else fail with an expected error # com.coding.StepDefinitions.StepDefinition.for_valid_credendtial_login_successfully_else_fail_with_an_expected_error()
+
+    Embedding  [image/png 33819 bytes]
+
+
+    Embedding  [image/png 33758 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 12063
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 15021
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:12:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 31, 2021 3:12:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 1 &amp; 2 given in the Email]&quot;](4)" classname="com.coding.Runner.TestRunner" time="0">
+    <system-out><![CDATA[
+@Testcase2
+Scenario:                                                                      # src/test/resources/com/coding/features/Feature1.feature:17
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 3 &amp; 4 given in the Email]&quot;](5)" classname="com.coding.Runner.TestRunner" time="14.631">
+    <system-out><![CDATA[
+@Testcase3
+Scenario:                                                              # src/test/resources/com/coding/features/Feature2.feature:4
+12-31-2021 15:13:01 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:13:01 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:13:10 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:13:10 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Header message on clicking Multiple Window Page is Opening a new window
+
+    Header message on clicking Multiple Window Page is Opening a new window
+
+actual sttatus is true
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Multiple Windows link is clicked from HomePage
+
+    Multiple Windows link is clicked from HomePage
+
+  Given User launches the application and clicks on "Multiple Windows" # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Clicking on 'Click Here' link on the Mulitple Window Page screen
+
+    Clicking on 'Click Here' link on the Mulitple Window Page screen
+
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - 1 extra windows opened in addition to the parent window
+
+    1 extra windows opened in addition to the parent window
+
+  When User clicks on the link on multiple page window                 # com.coding.StepDefinitions.StepDefinition.user_clicks_on_the_link()
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - URL of the Parent Window is http://the-internet.herokuapp.com/windows
+
+    URL of the Parent Window is http://the-internet.herokuapp.com/windows
+
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - URL of the newly Opened Child Window is http://the-internet.herokuapp.com/windows/new
+
+    URL of the newly Opened Child Window is http://the-internet.herokuapp.com/windows/new
+
+  Then User should log the URL of the newly opened tab                 # com.coding.StepDefinitions.StepDefinition.user_should_log_the_url_of_the_newly_opened_tab()
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Child window is closed
+
+    Child window is closed
+
+  And User close the newly opened tab                                  # com.coding.StepDefinitions.StepDefinition.user_close_the_newly_opened_tab()
+12-31-2021 15:13:11 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Current(Parent) Page URL is http://the-internet.herokuapp.com/windows and title of the current Page is The Internet
+
+    Current(Parent) Page URL is http://the-internet.herokuapp.com/windows and title of the current Page is The Internet
+
+  And User logs and validates the title of the current page            # com.coding.StepDefinitions.StepDefinition.user_logs_and_validates_the_title_of_the_current_page()
+
+    Embedding  [image/png 16056 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 37625
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 11950
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:13:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 31, 2021 3:13:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 1 &amp; 2 given in the Email]&quot;](6)" classname="com.coding.Runner.TestRunner" time="9.205">
+    <system-out><![CDATA[
+@Testcase4
+Scenario:                                                             # src/test/resources/com/coding/features/Feature2.feature:13
+12-31-2021 15:13:14 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:13:14 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:13:14 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Header message on clicking Dynamic Loading Page Dynamically Loaded Page Elements
+
+    Header message on clicking Dynamic Loading Page Dynamically Loaded Page Elements
+
+actual sttatus is true
+12-31-2021 15:13:14 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Dynamic Loading link is clicked from HomePage
+
+    Dynamic Loading link is clicked from HomePage
+
+  Given User launches the application and clicks on "Dynamic Loading"          # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:13:14 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Element2 is clicked and now clicking on start Button in Dynamic Loading Page
+
+    Element2 is clicked and now clicking on start Button in Dynamic Loading Page
+
+12-31-2021 15:13:15 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+
+    Embedding  [image/png 21616 bytes]
+
+  When User selects the element and clicks on start                            # com.coding.StepDefinitions.StepDefinition.user_selects_the_element_and_clicks_on_start()
+12-31-2021 15:13:17 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - on clicking start, progress bar is loading as expected
+
+    on clicking start, progress bar is loading as expected
+
+12-31-2021 15:13:20 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Progress bar completed with message as Hello World!
+
+    Progress bar completed with message as Hello World!
+
+  Then Validate the progress bar and once completed validate the final message # com.coding.StepDefinitions.StepDefinition.validate_the_progress_bar_and_once_completed_validate_the_final_message()
+
+    Embedding  [image/png 21098 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 10275
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:13:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 3 &amp; 4 given in the Email]&quot;](7)" classname="com.coding.Runner.TestRunner" time="5.045">
+    <system-out><![CDATA[
+@Testcase5
+Scenario:                                                                              # src/test/resources/com/coding/features/Feature3.feature:6
+12-31-2021 15:13:23 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:13:23 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:13:23 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Header message on clicking Drag and Drop Page is Drag and Drop
+
+    Header message on clicking Drag and Drop Page is Drag and Drop
+
+actual sttatus is true
+12-31-2021 15:13:23 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Drag and Drop link is clicked from HomePage
+
+    Drag and Drop link is clicked from HomePage
+
+  Given User launches the application and clicks on "Drag and Drop"   # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:13:24 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Before moving Box A to Box B, Value in first Box is A & Value in sec Box is B
+
+    Before moving Box A to Box B, Value in first Box is A & Value in sec Box is B
+
+  When User Should drag box A and drops it on box b                   # com.coding.StepDefinitions.StepDefinition.user_should_drag_box_a_and_drops_it_on_box_b()
+12-31-2021 15:13:24 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - After moving Box A to Box B, Value in first Box is B & Value in sec Box is A
+
+    After moving Box A to Box B, Value in first Box is B & Value in sec Box is A
+
+12-31-2021 15:13:24 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+
+    Embedding  [image/png 15776 bytes]
+
+  Then Validate whether the box drop is success and take a screenshot # com.coding.StepDefinitions.StepDefinition.validate_whether_the_box_drop_is_success()
+
+    Embedding  [image/png 15776 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 11108
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:13:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 5 given in the Email]&quot;](8)" classname="com.coding.Runner.TestRunner" time="8.933">
+    <system-out><![CDATA[
+@Testcase6
+Scenario:                                                                           # src/test/resources/com/coding/features/Feature3.feature:14
+12-31-2021 15:13:29 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:13:29 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:13:29 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 26 - -------------------------------------------Started-------------------------------------------
+12-31-2021 15:13:30 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Header message on clicking Frames is By.xpath: //h3
+
+    Header message on clicking Frames is By.xpath: //h3
+
+actual sttatus is true
+12-31-2021 15:13:30 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - Frames link is clicked from HomePage
+
+    Frames link is clicked from HomePage
+
+  Given User launches the application and clicks on "Frames"                           # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+An iFrame containing the TinyMCE WYSIWYG Editor
+  When User clicks on iFrame                                                           # com.coding.StepDefinitions.StepDefinition.user_clicks_on_i_frame()
+12-31-2021 15:13:32 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - The New Text Entered is Hello World
+
+    The New Text Entered is Hello World
+
+  Then User should be able to clear the predefined text and enter some text            # com.coding.StepDefinitions.StepDefinition.user_should_be_able_to_clear_the_predefined_text_and_enter_some_text()
+12-31-2021 15:13:33 LogManager.java INFO  [TestNG-PoolService-1] utils.LogManager 11 - the entered text is in bold
+
+    the entered text is in bold
+
+12-31-2021 15:13:33 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Status message on login is Welcome to the-internet
+
+    Status message on login is Welcome to the-internet
+
+12-31-2021 15:13:33 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Appication launched successfully
+
+    Appication launched successfully
+
+12-31-2021 15:13:34 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Header message on clicking JavaScript Alerts Page is By.xpath: //h3
+
+    Header message on clicking JavaScript Alerts Page is By.xpath: //h3
+
+actual sttatus is true
+12-31-2021 15:13:34 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - JavaScript Alerts link is clicked from HomePage
+
+    JavaScript Alerts link is clicked from HomePage
+
+  Given User launches the application and clicks on "JavaScript Alerts"             # com.coding.StepDefinitions.StepDefinition.user_launches_the_application_and_clicks_on_something(java.lang.String)
+12-31-2021 15:13:34 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Got an Alert Box on clicking on js confirm link
+
+    Got an Alert Box on clicking on js confirm link
+
+  When User Should clicks on js confirm link                                        # com.coding.StepDefinitions.StepDefinition.user_should_clicks_on_js_confirm_link()
+12-31-2021 15:13:34 LogManager.java INFO  [TestNG-PoolService-0] utils.LogManager 11 - Message on cancelling the Alert= You clicked: Cancel
+
+    Message on cancelling the Alert= You clicked: Cancel
+
+  Then User should cancel the alert opened and validate the alert cancelled message # com.coding.StepDefinitions.StepDefinition.user_should_cancel_the_alert_opened_and_validate_the_alert_cancelled_message()
+
+    Embedding  [image/png 22477 bytes]
+
+  And User should be able to make the newly entered text in bold and take a screenshot # com.coding.StepDefinitions.StepDefinition.user_should_be_able_to_make_the_newly_entered_text_in_bold_and_take_a_screenshot()
+
+    Embedding  [image/png 22093 bytes]
+
+
+    Embedding  [image/png 22451 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 4202
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 31, 2021 3:13:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Validate the Testcases 5 given in the Email]&quot;](9)" classname="com.coding.Runner.TestRunner" time="9.182"/>
+</testsuite>

@@ -1,0 +1,72 @@
+2021-12-31 15:12:30,055  INFO [TestNG-PoolService-1] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:12:30,055  INFO [TestNG-PoolService-0] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:12:36,576  INFO [TestNG-PoolService-0] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:12:36,586  INFO [TestNG-PoolService-0] LogManager:11 - Appication launched successfully
+2021-12-31 15:12:37,052  INFO [TestNG-PoolService-1] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:12:37,053  INFO [TestNG-PoolService-1] LogManager:11 - Appication launched successfully
+2021-12-31 15:12:37,701  INFO [TestNG-PoolService-0] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-12-31 15:12:37,703  INFO [TestNG-PoolService-0] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-12-31 15:12:37,710  INFO [TestNG-PoolService-0] LogManager:11 - Entering user name and password for Validuser
+2021-12-31 15:12:38,105  INFO [TestNG-PoolService-1] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-12-31 15:12:38,108  INFO [TestNG-PoolService-1] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-12-31 15:12:38,110  INFO [TestNG-PoolService-1] LogManager:11 - Entering user name and password for Invalidusername
+2021-12-31 15:12:38,835  INFO [TestNG-PoolService-1] LogManager:11 - On login using Uname= name2 and Password= SuperSecretPassword! ,it should be a Failure with message Your username is invalid!
+2021-12-31 15:12:38,838  INFO [TestNG-PoolService-0] LogManager:11 - On login using Uname= tomsmith and Password= SuperSecretPassword! ,it should be a Success with message You logged into a secure area!
+2021-12-31 15:12:40,751  INFO [TestNG-PoolService-1] LogManager:11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+2021-12-31 15:12:41,372  INFO [TestNG-PoolService-0] LogManager:11 - Expected Message after Login= You logged into a secure area!Actual Status after Login= You logged into a secure area!
+2021-12-31 15:12:46,199  INFO [TestNG-PoolService-0] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:12:46,583  INFO [TestNG-PoolService-1] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:12:53,974  INFO [TestNG-PoolService-0] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:12:53,977  INFO [TestNG-PoolService-0] LogManager:11 - Appication launched successfully
+2021-12-31 15:12:54,516  INFO [TestNG-PoolService-1] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:12:54,518  INFO [TestNG-PoolService-1] LogManager:11 - Appication launched successfully
+2021-12-31 15:12:55,337  INFO [TestNG-PoolService-0] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-12-31 15:12:55,338  INFO [TestNG-PoolService-0] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-12-31 15:12:55,339  INFO [TestNG-PoolService-0] LogManager:11 - Entering user name and password for Invalidpassword
+2021-12-31 15:12:55,402  INFO [TestNG-PoolService-0] LogManager:11 - On login using Uname= tomsmith and Password= Pass123# ,it should be a Failure with message Your password is invalid!
+2021-12-31 15:12:55,451  INFO [TestNG-PoolService-1] LogManager:11 - Header message on clicking Form_authentication Link Login Page
+2021-12-31 15:12:55,452  INFO [TestNG-PoolService-1] LogManager:11 - Form Authentication link is clicked from HomePage
+2021-12-31 15:12:55,455  INFO [TestNG-PoolService-1] LogManager:11 - Entering user name and password for InvaliduserAndPassword
+2021-12-31 15:12:55,497  INFO [TestNG-PoolService-1] LogManager:11 - On login using Uname= uname! and Password= pass! ,it should be a Failure with message Your username is invalid!
+2021-12-31 15:12:56,726  INFO [TestNG-PoolService-0] LogManager:11 - Expected Message after Login= Your password is invalid!Actual Status after Login= Your password is invalid!
+2021-12-31 15:12:56,739  INFO [TestNG-PoolService-1] LogManager:11 - Expected Message after Login= Your username is invalid!Actual Status after Login= Your username is invalid!
+2021-12-31 15:13:01,396  INFO [TestNG-PoolService-0] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:13:01,702  INFO [TestNG-PoolService-1] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:13:10,453  INFO [TestNG-PoolService-0] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:13:10,454  INFO [TestNG-PoolService-0] LogManager:11 - Appication launched successfully
+2021-12-31 15:13:11,020  INFO [TestNG-PoolService-0] LogManager:11 - Header message on clicking Multiple Window Page is Opening a new window
+2021-12-31 15:13:11,021  INFO [TestNG-PoolService-0] LogManager:11 - Multiple Windows link is clicked from HomePage
+2021-12-31 15:13:11,028  INFO [TestNG-PoolService-0] LogManager:11 - Clicking on 'Click Here' link on the Mulitple Window Page screen
+2021-12-31 15:13:11,251  INFO [TestNG-PoolService-0] LogManager:11 - 1 extra windows opened in addition to the parent window
+2021-12-31 15:13:11,262  INFO [TestNG-PoolService-0] LogManager:11 - URL of the Parent Window is http://the-internet.herokuapp.com/windows
+2021-12-31 15:13:11,518  INFO [TestNG-PoolService-0] LogManager:11 - URL of the newly Opened Child Window is http://the-internet.herokuapp.com/windows/new
+2021-12-31 15:13:11,584  INFO [TestNG-PoolService-0] LogManager:11 - Child window is closed
+2021-12-31 15:13:11,606  INFO [TestNG-PoolService-0] LogManager:11 - Current(Parent) Page URL is http://the-internet.herokuapp.com/windows and title of the current Page is The Internet
+2021-12-31 15:13:14,121  INFO [TestNG-PoolService-1] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:13:14,123  INFO [TestNG-PoolService-1] LogManager:11 - Appication launched successfully
+2021-12-31 15:13:14,696  INFO [TestNG-PoolService-1] LogManager:11 - Header message on clicking Dynamic Loading Page Dynamically Loaded Page Elements
+2021-12-31 15:13:14,696  INFO [TestNG-PoolService-1] LogManager:11 - Dynamic Loading link is clicked from HomePage
+2021-12-31 15:13:14,698  INFO [TestNG-PoolService-1] LogManager:11 - Element2 is clicked and now clicking on start Button in Dynamic Loading Page
+2021-12-31 15:13:15,487  INFO [TestNG-PoolService-0] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:13:17,197  INFO [TestNG-PoolService-1] LogManager:11 - on clicking start, progress bar is loading as expected
+2021-12-31 15:13:20,731  INFO [TestNG-PoolService-1] LogManager:11 - Progress bar completed with message as Hello World!
+2021-12-31 15:13:23,348  INFO [TestNG-PoolService-0] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:13:23,349  INFO [TestNG-PoolService-0] LogManager:11 - Appication launched successfully
+2021-12-31 15:13:23,938  INFO [TestNG-PoolService-0] LogManager:11 - Header message on clicking Drag and Drop Page is Drag and Drop
+2021-12-31 15:13:23,939  INFO [TestNG-PoolService-0] LogManager:11 - Drag and Drop link is clicked from HomePage
+2021-12-31 15:13:24,086  INFO [TestNG-PoolService-0] LogManager:11 - Before moving Box A to Box B, Value in first Box is A & Value in sec Box is B
+2021-12-31 15:13:24,232  INFO [TestNG-PoolService-0] LogManager:11 - After moving Box A to Box B, Value in first Box is B & Value in sec Box is A
+2021-12-31 15:13:24,879  INFO [TestNG-PoolService-1] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:13:29,465  INFO [TestNG-PoolService-1] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:13:29,466  INFO [TestNG-PoolService-1] LogManager:11 - Appication launched successfully
+2021-12-31 15:13:29,749  INFO [TestNG-PoolService-0] LogManager:26 - -------------------------------------------Started-------------------------------------------
+2021-12-31 15:13:30,215  INFO [TestNG-PoolService-1] LogManager:11 - Header message on clicking Frames is By.xpath: //h3
+2021-12-31 15:13:30,215  INFO [TestNG-PoolService-1] LogManager:11 - Frames link is clicked from HomePage
+2021-12-31 15:13:32,917  INFO [TestNG-PoolService-1] LogManager:11 - The New Text Entered is Hello World
+2021-12-31 15:13:33,387  INFO [TestNG-PoolService-1] LogManager:11 - the entered text is in bold
+2021-12-31 15:13:33,997  INFO [TestNG-PoolService-0] LogManager:11 - Status message on login is Welcome to the-internet
+2021-12-31 15:13:33,998  INFO [TestNG-PoolService-0] LogManager:11 - Appication launched successfully
+2021-12-31 15:13:34,579  INFO [TestNG-PoolService-0] LogManager:11 - Header message on clicking JavaScript Alerts Page is By.xpath: //h3
+2021-12-31 15:13:34,580  INFO [TestNG-PoolService-0] LogManager:11 - JavaScript Alerts link is clicked from HomePage
+2021-12-31 15:13:34,694  INFO [TestNG-PoolService-0] LogManager:11 - Got an Alert Box on clicking on js confirm link
+2021-12-31 15:13:34,767  INFO [TestNG-PoolService-0] LogManager:11 - Message on cancelling the Alert= You clicked: Cancel
